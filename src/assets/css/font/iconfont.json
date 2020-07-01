@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "47575537",
+      "name": "tags",
+      "font_class": "tags",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "47575538",
+      "name": "book-reader",
+      "font_class": "book-reader",
+      "unicode": "ef49",
+      "unicode_decimal": 61257
+    }
+  ]
+}
