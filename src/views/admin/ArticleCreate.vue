@@ -93,8 +93,9 @@
                     tags: this.form.tags,
                     status: status,
                 };
-                saveOrPublish(params).then(()=>{
-                    this.$router.push();
+                saveOrPublish(params).then( res =>{
+                    console.log( res.data);
+                    // this.$router.push(({ name: 'article_preview', params: { id: '123' }}));
                 });
             },
             getTags(){

@@ -5,20 +5,21 @@ module.exports = {
         proxy: {
             '/api': {
                 // target: 'http://192.168.2.12',
-                target: 'http://my.blog.com:8000',
-                changeOrigin: true,
+                // target: 'http://my.blog.com:8000',
+                target: 'http://192.168.2.12:8000',
+                changeOrigin: true
             },
             '/storage':{
                 // target: 'http://192.168.2.12',
                 target: 'http://tech.addcn.com',
-                changeOrigin: true,
+                changeOrigin: true
             },
             '/socket.io':{
                 target: 'http://192.168.2.12:6001',
                 changeOrigin: true,
                 ws: true
             }
-        },
+        }
 
     },
     pwa: {
@@ -37,7 +38,7 @@ module.exports = {
         workboxPluginMode: 'InjectManifest',
         workboxOptions: {
           // InjectManifest 模式下 swSrc 是必填的。
-          swSrc: 'public/sw.js',
+          swSrc: 'public/sw.js'
           // ...其它 Workbox 选项...
         }
       }

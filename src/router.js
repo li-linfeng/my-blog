@@ -60,8 +60,13 @@ const router = new Router({
           component: () => import(/* webpackChunkName: "index" */ '@/views/admin/Article.vue')
         },
         {
-          path: '/article-create',
-          name: 'article-create',
+          path: '/article_create',
+          name: 'article_create',
+          component: () => import(/* webpackChunkName: "index" */ '@/views/admin/ArticleCreate.vue')
+        },
+        {
+          path: '/article_preview/:id',
+          name: 'article_preview',
           component: () => import(/* webpackChunkName: "index" */ '@/views/admin/ArticleCreate.vue')
         },
       ]
