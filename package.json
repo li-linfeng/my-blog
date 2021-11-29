@@ -15,7 +15,7 @@
     "js-cookie": "^2.2.1",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
-    "mavon-editor": "^2.7.7",
+    "mavon-editor": "^2.8.2",
     "store": "^2.0.12",
     "vue": "^2.6.10",
     "vue-cute-timeline": "^1.2.8",
